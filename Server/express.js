@@ -10,7 +10,7 @@ app.get('/',(req,res)=>{
 app.get('/about',(req,res)=>{
     return res.send("hello from About page " + " hey " + req.query.name  + "Your" +req.query.age);
 });
-
+   
 
 app.post('/signup',(req,res)=>{
     return res.send("Signup form submitted");
