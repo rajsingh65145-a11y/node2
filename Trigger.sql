@@ -17,7 +17,7 @@ create trigger trg_mid
     before insert on tblemp
     begin
     select
-    case
+    case  
     when new.m_id not in (101,102)then
     raise(abort,'invalid manager id')
     end;
