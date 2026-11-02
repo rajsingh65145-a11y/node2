@@ -12,7 +12,7 @@ create table tblemp(eid,fname,lname,jdate,salary,m_id,post);
     (110, 'Maitry', 'Vyas', '2017-03-11', 10000, 102, 'Accountant'),
     (111, 'Mohan', 'Mehta', '2020-02-27', 15000, 101, 'Electrician');
 
-  select *from tblemp;
+  select *from tblemp;  
   select m_id, count(m_id) as total_count from tblemp group by m_id;
  select m_id,count(m_id)as total_count from tblemp group by m_id having count(m_id)>3;
 select *from tblemp order by lname,fname;
