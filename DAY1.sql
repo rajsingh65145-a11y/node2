@@ -50,7 +50,7 @@ select eid,fname,salary from tblemp where salary<20000
     select eid,fname,salary from tblemp where lname='Patel';
 
     select eid,fname,salary from tblemp where salary<20000
-    union all
+    union all  
     select eid,fname,salary from tblemp where lname='Patel';
 
     select eid,fname,salary from tblemp where salary<20000
